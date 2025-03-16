@@ -32,11 +32,6 @@ The dataset is suitable for:
 - Employed **OpenAI Embeddings** (or **Word2Vec**) for semantic search.  
 - Indexed data using **FAISS** (Facebook AI Similarity Search) for fast vector search.  
 
-### **5. Dataset Splitting**  
-- Divided the dataset into:  
-  - **80% Training Data** – Used for fine-tuning the RAG model.  
-  - **20% Test Data** – For evaluating model performance.  
-
 ---
 
 ## 🚀 **Recommended Approach for RAG Chatbot Development**  
@@ -60,17 +55,6 @@ The dataset is suitable for:
 
 ---
 
-## 📊 **Column Descriptions**  
-
-| Column Name | Description |
-|--------------|--------------|
-| **Section** | The categorized content type (e.g., Units, Definitions, Monographs, etc.) |
-| **Title** | The specific topic covered in the content |
-| **Content** | Detailed text extracted from the handbook |
-| **Keywords** | Important keywords extracted for search optimization |
-| **Embedding** | Numerical vector representation for fast retrieval |
-
----
 
 ## ❓ **Sample Questions for Testing**  
 
